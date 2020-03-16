@@ -29,7 +29,7 @@ Next, simply copy the following lines to your Command Promt (cmd)
 ```
 heroku create
 heroku buildpacks:add heroku/jvm
-heroku buildpacks:add https://github.com/kimbang012/Spigot-on-heroku
+heroku buildpacks:add https://github.com/JeffreyPFC21/Spigot1.14.4Heroku
 heroku ps:exec
 git commit -m "Heroku Exec" --allow-empty
 done
@@ -92,3 +92,9 @@ You can add files such as ``banned-players.json``, ``banned-ips.json``, ``ops.js
 ## Tips
 
 You may create your own server on your computer with your own plugins, worlds then ZIP it to a file with the name **backup.zip**. Upload it to dropbox and you will have your own configured server.
+
+## Credits
+
+JeffreyPFC21 - Added 1.14.4 Support
+DavidNexuss - Added Spigot to jkutner's Minecraft Buildpack
+jkutner - Created the Heroku Minecraft Buildpack
