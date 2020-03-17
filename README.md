@@ -105,5 +105,7 @@ You may create your own server on your computer with your own plugins, worlds th
 ## Credits
 
 JeffreyPFC21 - Added 1.14.4 Support
+
 DavidNexuss - Added Spigot to jkutner's Minecraft Buildpack
+
 jkutner - Created the Heroku Minecraft Buildpack
