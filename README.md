@@ -79,10 +79,10 @@ The buildpack will sync your world to the bucket every 60 seconds, but this is c
 
 You can choose the Minecraft version by setting the MINECRAFT_VERSION like so:
 
-By default version is `1.8.8-R0.1-SNAPSHOT-latest`, files name are list at [GetBukkit](https://getbukkit.org/spigot) offical site.
+By default version is `SPIGOT-1.14.4`, files name are list at [GetBukkit](https://getbukkit.org/spigot) offical site.
 
 ```
-heroku config:set MINECRAFT_VERSION="1.8.8-R0.1-SNAPSHOT-latest"
+heroku config:set MINECRAFT_VERSION="SPIGOT-1.14.4"
 ```
 
 You can also configure the server properties by creating a server.properties file in your project and adding it to Git. This is how you would set things like Creative mode and Hardcore difficulty. The various options available are described on the Minecraft Wiki.
