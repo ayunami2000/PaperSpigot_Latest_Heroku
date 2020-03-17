@@ -50,7 +50,7 @@ Make a text document with the following values
 ```
 worker = 1
 ```
-Save the file as just "Procfile".remove any file extesion if you have to
+Save the file as just "Procfile" Remove any file extesions if you have to
 
 Then copy these commands in the cmd
 
