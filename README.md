@@ -43,6 +43,14 @@ $ heroku config:set DBCONFIG="xxxxx"
 ```
 **Put your Dropbox Access Token in the DBCONFIG!**
 
+**Add A Procfile**
+Make a text document with the following values
+
+```
+worker = 1
+```
+Save the file as just "Procfile".remove any file extesion if you have to
+
 Then copy these commands in the cmd
 
 ```
