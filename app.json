@@ -6,7 +6,7 @@
     "minecraft",
     "spigot"
   ],
-  "repository": "https://github.com/ayunami2000/Spigot1.14.4Heroku",
+  "repository": "https://github.com/ayunami2000/PaperSpigot_Latest_Heroku",
   "env": {
     "MINECRAFT_EULA": {
       "description": "Do you accept the Minecraft EULA?",
